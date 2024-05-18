@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#printing disk usage
 diskspace=`df -h`
 mem=`free -h`
 cpuinfo=`cat /proc/cpuinfo`
